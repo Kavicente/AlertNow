@@ -1,0 +1,22 @@
+workflows:
+  ios-bypass-signing:
+    name: iOS Build (No Signing)
+    environment:
+      flutter: stable
+      xcode: latest
+    scripts:
+      - name: Get dependencies
+        script: flutter pub get
+      - name: Install pods
+        script: cd ios && pod install
+      - name: Build iOS (Bypass Signing)
+        script: |
+          flutter build ios --debug --no-codesign --simulator
+          # This builds an unsigned .app for simulator
+    artifacts:
+      - build/ios/iphoneos/Runner.app/**    # Unsigned app bundle
+      - build/ios/ipa/*.ipa                 # If it generates .ipa
+    publishing:
+      email:
+        recipients:
+          - your-email@example.com
