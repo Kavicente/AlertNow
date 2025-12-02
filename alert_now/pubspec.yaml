@@ -26,11 +26,11 @@ dependencies:
   unicode: ^0.3.1                       # Pinned to satisfy mgrs_dart
   package_info_plus: ^8.3.1             # Pinned to satisfy geolocator_linux
   google_maps_flutter: ^2.9.0            # Google Maps for resident.dart
-  intl: ^0.19.0                         # Time formatting
-  connectivity_plus: ^6.0.5              # Network status checking
+  intl: ^0.20.2                         # Time formatting
+  connectivity_plus: ^7.0.0              # Network status checking
 
 dev_dependencies:
-  flutter_lints: ^2.0.0
+  flutter_lints: ^6.0.0
   flutter_test:
     sdk: flutter
 

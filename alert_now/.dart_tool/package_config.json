@@ -81,7 +81,7 @@
     },
     {
       "name": "connectivity_plus",
-      "rootUri": "file:///C:/Users/Vince/AppData/Local/Pub/Cache/hosted/pub.dev/connectivity_plus-6.1.5",
+      "rootUri": "file:///C:/Users/Vince/AppData/Local/Pub/Cache/hosted/pub.dev/connectivity_plus-7.0.0",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
@@ -189,9 +189,9 @@
     },
     {
       "name": "flutter_lints",
-      "rootUri": "file:///C:/Users/Vince/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_lints-2.0.3",
+      "rootUri": "file:///C:/Users/Vince/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_lints-6.0.0",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "3.8"
     },
     {
       "name": "flutter_local_notifications",
@@ -399,9 +399,9 @@
     },
     {
       "name": "intl",
-      "rootUri": "file:///C:/Users/Vince/AppData/Local/Pub/Cache/hosted/pub.dev/intl-0.19.0",
+      "rootUri": "file:///C:/Users/Vince/AppData/Local/Pub/Cache/hosted/pub.dev/intl-0.20.2",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.3"
     },
     {
       "name": "latlong2",
@@ -429,9 +429,9 @@
     },
     {
       "name": "lints",
-      "rootUri": "file:///C:/Users/Vince/AppData/Local/Pub/Cache/hosted/pub.dev/lints-2.1.1",
+      "rootUri": "file:///C:/Users/Vince/AppData/Local/Pub/Cache/hosted/pub.dev/lints-6.0.0",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.8"
     },
     {
       "name": "lists",
